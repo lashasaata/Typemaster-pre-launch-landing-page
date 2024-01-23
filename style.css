@@ -1,0 +1,362 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap");
+html {
+  font-size: 10px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 1110px;
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+header img {
+  height: 40px;
+}
+#firstButton {
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: rgba(232, 239, 242, 1);
+  color: #162542;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+#firstButton:hover {
+  background-color: #162542;
+  color: #fff;
+  transition: 0.7s;
+  cursor: pointer;
+}
+main {
+  margin-top: 83px;
+  width: 1110px;
+}
+.firstSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.introduction {
+  width: 445px;
+}
+.introduction h1 {
+  color: #162542;
+  font-size: 5.6rem;
+  font-weight: 900;
+  line-height: 56px;
+  text-transform: uppercase;
+}
+.introduction p {
+  color: #7b8bad;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.introduction div {
+  height: 98px;
+  display: flex;
+}
+#secondButton {
+  width: 175px;
+  height: 58px;
+  border-radius: 8px;
+  background-color: rgba(241, 103, 24, 1);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+#secondButton:hover {
+  background-color: rgba(255, 155, 98, 1);
+  transition: 0.7s;
+  cursor: pointer;
+}
+.introduction div span {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 56px 0px 0px 40px;
+}
+.keyboard {
+  width: 540px;
+  height: 480px;
+  border-radius: 16px;
+}
+#firstSquare {
+  position: absolute;
+  margin-left: 1140px;
+  margin-top: -245px;
+}
+.secondSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  gap: 25px;
+  height: 480px;
+  margin-top: 30px;
+}
+#secondSquare {
+  height: 236px;
+  position: absolute;
+  margin: 245px 0px 0px -285px;
+}
+#phoneKeyboard {
+  width: 255px;
+  border-radius: 20px;
+  background-color: rgba(241, 103, 24, 1);
+  opacity: 0.7486;
+  mix-blend-mode: multiply;
+}
+#glassKeyboard {
+  width: 445px;
+  border-radius: 16px;
+}
+.mechanical {
+  width: 255px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.mechanical h2 {
+  color: #162542;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.mechanical p {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 168px;
+  margin-bottom: 40px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  width: 1110px;
+}
+.h3 {
+  color: #162542;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 48px;
+  width: 255px;
+}
+.footerP {
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 24px;
+}
+.date {
+  margin-top: 128px;
+  color: #7b8bad;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 26px;
+}
+.date span {
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  header {
+    width: 689px;
+    margin-top: 49px;
+  }
+  main {
+    margin-top: 62px;
+  }
+  .firstSection {
+    width: 729px;
+    margin-left: 210px;
+    overflow: hidden;
+  }
+  .introduction {
+    width: 340px;
+  }
+  .introduction h1 {
+    font-size: 4.8rem;
+    line-height: 48px;
+  }
+  .introduction p {
+    font-size: 1.6rem;
+    margin-top: 34px;
+  }
+  .introduction div span {
+    margin: 55px 0px 0px 20px;
+  }
+  .keyboard {
+    width: 478px;
+    height: 425px;
+    margin-left: 39px;
+  }
+  #firstSquare {
+    display: none;
+  }
+  .secondSection {
+    width: 689px;
+    margin-left: 210px;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  #secondSquare {
+    display: none;
+  }
+  #phoneKeyboard {
+    width: 214px;
+    height: 320px;
+  }
+  #glassKeyboard {
+    height: 320px;
+  }
+  .mechanical {
+    margin: 42px 0px 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+    width: 689px;
+  }
+  .mechanical h2 {
+    width: 255px;
+  }
+  .mechanical p {
+    width: 398px;
+  }
+  footer {
+    margin-top: 157px;
+  }
+  .icons {
+    width: 689px;
+    flex-wrap: wrap;
+    gap: 69px;
+  }
+  .h3 {
+    margin-top: 40px;
+  }
+  .footerP {
+    width: 281px;
+  }
+  .date {
+    margin-top: 142px;
+  }
+}
+@media (max-width: 375px) {
+  header {
+    width: 327px;
+    margin-top: 23px;
+  }
+  .firstSection {
+    flex-wrap: wrap;
+    width: 327px;
+    overflow: visible;
+    margin-left: 391px;
+  }
+  #secondButton {
+    width: 150px;
+    height: 48px;
+  }
+  .introduction p {
+    margin-top: 32px;
+  }
+  .introduction div {
+    height: 48px;
+    margin-top: 32px;
+    gap: 32px;
+  }
+  .introduction div span {
+    margin: 0px;
+    align-self: center;
+  }
+  .keyboard {
+    width: 372px;
+    height: 331px;
+    margin: 64px 0px 0px;
+  }
+  .secondSection {
+    width: 375px;
+    margin: 24px 0px 0px 345px;
+    gap: 26px;
+    justify-content: center;
+  }
+  #phoneKeyboard {
+    width: 129px;
+    height: 193px;
+  }
+  #glassKeyboard {
+    width: 220px;
+    height: 193px;
+  }
+  .mechanical {
+    flex-direction: column;
+    width: 327px;
+  }
+  .mechanical h2 {
+    margin-left: 60px;
+    text-align: center;
+  }
+  .mechanical p {
+    margin-top: 24px;
+    width: 327px;
+    margin-left: 48px;
+    text-align: center;
+  }
+  footer {
+    margin-top: 112px;
+  }
+  .icons {
+    width: 327px;
+    gap: 64px;
+  }
+  .icon {
+    margin-left: 131px;
+  }
+  .h3 {
+    margin-left: 36px;
+    text-align: center;
+    margin-top: 48px;
+  }
+  .footerP {
+    width: 327px;
+    text-align: center;
+  }
+  .date {
+    margin-top: 96px;
+    margin-bottom: 50px;
+  }
+}
