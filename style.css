@@ -154,7 +154,7 @@ main {
   font-weight: 500;
   line-height: 26px;
 }
-footer {
+section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -200,10 +200,11 @@ footer {
   }
   main {
     margin-top: 62px;
+    width: 100%;
   }
   .firstSection {
     width: 729px;
-    margin-left: 210px;
+    margin-left: 39px;
     overflow: hidden;
   }
   .introduction {
@@ -230,7 +231,7 @@ footer {
   }
   .secondSection {
     width: 689px;
-    margin-left: 210px;
+    margin-left: 39px;
     flex-wrap: wrap;
     gap: 30px;
   }
@@ -258,7 +259,7 @@ footer {
   .mechanical p {
     width: 398px;
   }
-  footer {
+  section {
     margin-top: 157px;
   }
   .icons {
@@ -276,7 +277,7 @@ footer {
     margin-top: 142px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   header {
     width: 327px;
     margin-top: 23px;
@@ -285,7 +286,7 @@ footer {
     flex-wrap: wrap;
     width: 327px;
     overflow: visible;
-    margin-left: 391px;
+    margin-left: 24px;
   }
   #secondButton {
     width: 150px;
@@ -310,9 +311,9 @@ footer {
   }
   .secondSection {
     width: 375px;
-    margin: 24px 0px 0px 345px;
+    margin: 24px 0px 0px 24px;
     gap: 26px;
-    justify-content: center;
+    justify-content: flex-start;
   }
   #phoneKeyboard {
     width: 129px;
@@ -333,10 +334,10 @@ footer {
   .mechanical p {
     margin-top: 24px;
     width: 327px;
-    margin-left: 48px;
+    margin-left: 24px;
     text-align: center;
   }
-  footer {
+  section {
     margin-top: 112px;
   }
   .icons {
