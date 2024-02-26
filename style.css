@@ -21,6 +21,7 @@ header {
   margin-top: 55px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 header img {
   height: 40px;
@@ -130,6 +131,10 @@ main {
   opacity: 0.7486;
   mix-blend-mode: multiply;
 }
+/* it doesn set color on img */
+/* #phoneKeyboard::after {
+  background-color: rgba(241, 103, 24, 1);
+} */
 #glassKeyboard {
   width: 445px;
   border-radius: 16px;
@@ -184,7 +189,7 @@ section {
   margin-top: 24px;
 }
 .date {
-  margin-top: 128px;
+  margin: 128px 0px 40px;
   color: #7b8bad;
   font-size: 1.6rem;
   font-weight: 700;
@@ -274,7 +279,7 @@ section {
     width: 281px;
   }
   .date {
-    margin-top: 142px;
+    margin: 142px 0px 40px;
   }
 }
 @media (max-width: 425px) {
